@@ -616,6 +616,7 @@ progress {
   height: auto;
 }
 
+
 .figure {
   display: inline-block;
 }
@@ -11574,7 +11575,7 @@ body {
   line-height: 3rem;
   letter-spacing: 0.8rem;
   /*background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));*/
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11609,6 +11610,12 @@ body {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
+
+.title-section {
+  padding-top: 1rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
 .about-section p {
   margin-bottom: 5rem;
 }
